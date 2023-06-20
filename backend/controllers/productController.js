@@ -21,6 +21,8 @@ exports.getProducts = catchAsyncError(async (req, res, next)=>{
     
     const products = await buildQuery().paginate(resPerPage).query;
 
+
+
     res.status(200).json({
         success : true,
         count: productsCount,
