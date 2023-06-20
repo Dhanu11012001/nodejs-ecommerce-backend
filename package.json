@@ -1,5 +1,6 @@
 {
-  "name": "jvlcart",
+  "homepage": "http://localhost:3000/",
+  "name": "amazoncart",
   "version": "1.0.0",
   "description": "ecommerce using MERN stack",
   "main": "server.js",
